@@ -1,0 +1,70 @@
+:root {
+    --color-background: ;
+    --color-primary: ;
+    --color-secondary: ;
+}
+
+::selection {
+    background: ;
+    color: ;
+}
+
+html {
+    min-height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    background: var(--color-background);
+}
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    transition: all .2s;
+}
+
+body {
+    height: 100%;
+    max-width: 1200px;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    font-size: 1.4rem;
+}
+
+
+
+
+
+/* media queries */
+@media screen and (max-width: 767px) {
+
+}
+
+@media screen and (max-height: px) {
+    
+}
+
+/* animations */
+@keyframes {
+    0% {
+
+    }
+    50% {
+
+    }
+    100% {
+
+    }
+}
+
+/* javascript classes */
