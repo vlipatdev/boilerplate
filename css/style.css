@@ -17,6 +17,10 @@ html {
     box-sizing: border-box;
     font-size: 62.5%;
     background: var(--color-background);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 *, *::before, *::after {
@@ -38,7 +42,7 @@ body {
 }
 
 footer {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
 }
 
 
@@ -46,7 +50,7 @@ footer {
 
 
 /* media queries */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
 
 }
 
